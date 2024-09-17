@@ -18,7 +18,7 @@
 
 - How do we judge the quality of a particular model?
     - Classification accuracy and error: #correct/Total and #incorrect/Total
-    - Pattern error: sum of absolute value differences between the target and output of each 
+    - Pattern error: sum of absolute value differences between the target and output of each (this is L1 loss)
     - Sum squared error: sum of square difference between the target and output of each (accentuates the outliers), this is L2 loss
     - Sum squared error (SSE): sum of a sum of the squares of the difference between the target and output
     - Mean squared error: take SSE for all data in the dataset, then average those returns
