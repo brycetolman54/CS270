@@ -35,7 +35,7 @@
     - We want to minimize error on our training set (not our test set), and the complexity of the model
         - e.g. `Minimize F(h) = Error(h) + λComplexity(h)`
         - We see complexity by summing all the weights (that means something with more inputs can be less complex than something with less weights)
-        - $F(w) = TSS(w) + /lambda ||w||^2$
+        - $F(w) = TSS(w) + \lambda ||w||^2$
             - The TSS is sum of square error, λ is a constant
         - Then we take the derivative and we want to get the min of that
-            - $/Deltaw_i = c(t - net)x_i - /lambdaw_i$
+            - $\Deltaw_i = c(t - net)x_i - \lambdaw_i$
