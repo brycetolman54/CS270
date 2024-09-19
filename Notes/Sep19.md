@@ -38,4 +38,4 @@
         - $F(w) = TSS(w) + \lambda ||w||^2$
             - The TSS is sum of square error, λ is a constant
         - Then we take the derivative and we want to get the min of that
-            - $\Deltaw_i = c(t - net)x_i - \lambdaw_i$
+            - $\Delta w_i = c(t - net)x_i - \lambda w_i$
