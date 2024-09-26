@@ -6,3 +6,4 @@
 4. [Quadric Functions and Project 1](Notes/Sep17.md)
 5. [Regression](Notes/Sep19.md)
 6. [Avoiding Overfit](Notes/Sep24.md)
+7. [Multilayer](Notes/Sep26.md)
