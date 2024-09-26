@@ -20,17 +20,17 @@
 
 - We find the (T)arget - Output (Z) for the output nodes
 - We take that error and send it back to the hidden layer
-- The Delta rule: $\Delta w_ij = C \delta _j Z_i$
+- The Delta rule: $\Delta w_{ij} = C \delta _j Z_i$
     - $C$ is the learning rate
     - $\delta_i$ is the error (changes for output/hidden nodes)
     - $Z_i$ is the output from node i to j
 - What does the function look like?
-    - Sigmoid: $Z_j = f(net_j) = 1 / (1 + e^(-net_j))$
+    - Sigmoid: $Z_j = f(net_j) = 1 / (1 + e^{(-net_j)})$
     - The derivative = $f'(net_j) = Z_j (1 - Z_j)$
     - The derivative doesn't change so much at the edges, but does at the center. That is good. We don't want it to change much when we are quite close to the right answer.
 - Learning Equations:
-    - For an output node: $\delta _j  = (T_j - Z_j)f'(net_j)$
-    - For a hidden node: $\delta _j = \sum_{k} (\delta _k w_jk)f'(net_j)$
+    - For an output node: $\delta_j  = (T_j - Z_j)f'(net_j)$
+    - For a hidden node: $\delta_j = \sum_{k} \delta_k w_{jk}f'(net_j)$
 - What are i, j, and k?
     - i is the node behind us
     - j is the one we are at
