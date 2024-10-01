@@ -7,3 +7,4 @@
 5. [Regression](Notes/Sep19.md)
 6. [Avoiding Overfit](Notes/Sep24.md)
 7. [Multilayer](Notes/Sep26.md)
+8. [More on Multilayer](Notes/Oct1.md)
