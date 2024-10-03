@@ -16,7 +16,7 @@
         - $t_i$ is the target of the node
         - $z-i$ is the actual output
 - Now the change in weights?
-    - You just get $t-z$ (no $f(net_j)$) for the output layer
+    - You just get $t-z$, no $f(net_j)$, for the output layer
     - You can choose whatever function you want for the hidden layers
 
 ### Regression with MLP/BP
