@@ -10,3 +10,4 @@
 8. [More on Multilayer](Notes/Oct1.md)
 9. [Backpropagation](Notes/Oct3.md)
 10. [Feature Selection](Notes/Oct8.md)
+11. [More on Features](Notes/Oct10.md)
