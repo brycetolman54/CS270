@@ -70,4 +70,4 @@
 - We can use this to get the distance between nominal data
 - The idea is that if a feature that is nominal has a split in the value and the class the point with that value belongs to, the different values have a large distance
 - There is a formula to calculate it:
-    - vdm_a(x,y) = \sum_{c=1}^{C}{\frac{N_{a,x,c}}{N_{}a,x}-\frac{N_{a,y,c}}{N_{a,y}}}$
+    - $vdm_a(x,y) = \sum_{c=1}^{C}{(\frac{N_{a,x,c}}{N_{}a,x}-\frac{N_{a,y,c}}{N_{a,y}}})^2$
