@@ -13,3 +13,4 @@
 11. [More on Features](Notes/Oct10.md)
 12. [K-nearest neighbours](Notes/Oct24.md)
 13. [Data Mining](Notes/Oct29.md)
+14. [Bayes](Notes/Oct31.md)
