@@ -51,20 +51,20 @@
 |      L      |        R        |       N       |
 |      L      |        G        |       P       |
 
-| Probability Name | Probability |
-| :--------------: | :---------: |
-|       P(P)       |     2/5     |
-|       P(N)       |     3/5     |
-|   P(Size=L|P)    |     1/2     |
-|   P(Size=S|P)    |     1/2     |
-|   P(Size=L|N)    |     2/3     |
-|   P(Size=S|N)    |     1/3     |
-|   P(Color=R|P)   |     0/3     |
-|   P(Color=G|P)   |     1/2     |
-|   P(Color=B|P)   |     1/2     |
-|   P(Color=R|N)   |     2/3     |
-|   P(Color=G|N)   |     1/3     |
-|   P(Color=B|N)   |     0/3     |
+|  Probability Name | Probability |
+| :---------------: | :---------: |
+|        P(P)       |     2/5     |
+|        P(N)       |     3/5     |
+|   P(Size=L\|P)    |     1/2     |
+|   P(Size=S\|P)    |     1/2     |
+|   P(Size=L\|N)    |     2/3     |
+|   P(Size=S\|N)    |     1/3     |
+|   P(Color=R\|P)   |     0/3     |
+|   P(Color=G\|P)   |     1/2     |
+|   P(Color=B\|P)   |     1/2     |
+|   P(Color=R\|N)   |     2/3     |
+|   P(Color=G\|N)   |     1/3     |
+|   P(Color=B\|N)   |     0/3     |
 
 - Relative probabilities:
     - P(P|L,B) = P(P) * P(Size=L|P) * P(Color=B|P) = 2/5 * 1/2 * 1/2 = 1/10
