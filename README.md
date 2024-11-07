@@ -14,3 +14,5 @@
 12. [K-nearest neighbours](Notes/Oct24.md)
 13. [Data Mining](Notes/Oct29.md)
 14. [Bayes](Notes/Oct31.md)
+15. [Ensembling](Notes/Nov5.md)
+16. [Unsupervised learning](Notes/Nov7.md)
