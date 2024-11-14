@@ -16,3 +16,4 @@
 14. [Bayes](Notes/Oct31.md)
 15. [Ensembling](Notes/Nov5.md)
 16. [Unsupervised learning](Notes/Nov7.md)
+17. [Reinforcement Learning](Notes/Nov14.md)
